@@ -1,0 +1,46 @@
+*, html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  height: 100%; 
+}
+a {
+  text-decoration: none;
+  color: rgb(24, 24, 24)
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(224, 206, 226);
+}
+
+.header-container {
+  padding: 1em 4.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img{
+  width: 30px;
+  height: 30px;
+}
+.nav-list {
+  gap: 35px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+
+  display: flex;
+  justify-content: center;
+}
+.container img {
+  
+  height: 600;
+}

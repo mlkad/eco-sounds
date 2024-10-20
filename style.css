@@ -70,7 +70,8 @@ a {
 }
 
 .play,
-.stop {
+.pause {
+  transition: opacity 0.9s ease;
   display: flex;
   top: 40%;
   left: 45%;
@@ -82,9 +83,12 @@ a {
   color: white;
 }
 
-.stop {
+.hidden {
   display: none;
+  opacity: 0;
+
 }
+
 
 .container img {
   width: 60%;
